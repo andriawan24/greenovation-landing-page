@@ -26,10 +26,6 @@ const Home = () => {
                     <ServiceArea />
                     <CtaArea />
                     <FeatureArea />
-                    <TestimonialArea />
-                    <BrandArea />
-                    <TeamArea />
-                    <BlogArea />
                     <FooterContact />
                 </main>
             <Footer />

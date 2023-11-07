@@ -43,7 +43,6 @@ const ServiceArea = () => {
             <section className="tp-service-3-area p-relative pt-120 pb-60" 
                 style={{backgroundImage: `url(/assets/img/services/home-3/service-bg.png)`}}>
                     <div className="container">
-
                     <div className="row align-items-center">
                         <div className="col-xl-6">
                             <div className="tp-service-3-title-wrapper">
