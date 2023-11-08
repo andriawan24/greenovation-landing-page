@@ -9,7 +9,7 @@ import Sidebar from '@/src/modals/sidebar';
 import call_icon from '@assets/img/icon/call.svg';
 import { SocialLinksTwo } from '@/src/common/social-links';
 
-const HeaderThree = () => {
+const Header = () => {
    const {sticky}  =  useSticky()
    const [searchOpen, setSearchOpen] = useState(false)
    const [sidebarOpen, setSidebarOpen] = useState(false)
@@ -208,4 +208,4 @@ const HeaderThree = () => {
     );
 };
 
-export default HeaderThree;
+export default Header;

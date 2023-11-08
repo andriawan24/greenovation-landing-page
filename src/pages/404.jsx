@@ -3,17 +3,18 @@ import Link from "next/link";
 import Image from "next/image";
 import Footer from "../layout/footers/footer"; 
 import SEO from "../common/seo";
-import HeaderOne from "../layout/headers/header";
 import error_shape from "@assets/img/error/error-shape.png";
 import error_img from "@assets/img/error/404.png";
+import Header from "../layout/headers/header";
+import HeaderTwo from "../layout/headers/header-2";
 
 
 const index = () => {
   return (
     <>
-    <SEO pageTitle={"Oops.! Page Not Found!"} /> 
-    <HeaderOne />
-      <div id="smooth-wrapper">
+      <SEO pageTitle={"Not Found"} /> 
+      <HeaderTwo />
+      <div id="smooth-wrapper" className="pt-20">
         <div id="smooth-content">
           <main>
             <div className="tp-error-area tp-error-ptb p-relative">
@@ -42,7 +43,7 @@ const index = () => {
               </div>
             </div>
           </main>
-          <Footer />
+        <Footer />
         </div>
       </div>
     </>
