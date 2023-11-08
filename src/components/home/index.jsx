@@ -13,11 +13,12 @@ import BlogArea from '../../common/blog-area';
 import FooterContact from '../../layout/footers/footer-contact';
 import Header from '@/src/layout/headers/header';
 import Footer from '@/src/layout/footers/footer';
+import HeaderTwo from '@/src/layout/headers/header-2';
 
 const Home = () => {
     return (
         <>
-            <Header />
+            <HeaderTwo />
                 <main>
                     <HeroArea />
                     {/* <CounterArea /> */}

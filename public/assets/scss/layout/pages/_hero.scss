@@ -62,7 +62,7 @@
         & .tp-hero-title{
             position: relative;
             font-weight: 700;
-            font-size: 75px;
+            font-size: 65px;
             line-height: 95px;
             text-transform: capitalize;
             color: var(--tp-text-2);
@@ -70,7 +70,7 @@
             animation-delay: .8s;
             animation-duration: 1s;
             @media #{$lg} {
-                font-size: 62px;
+                font-size: 42px;
                 line-height: 85px;
             }
             @media #{$md} {
@@ -625,6 +625,7 @@
             & .shape-1 {
                 position: absolute;
                 bottom: 0;
+                display: none;
                 left: 0;
                 z-index: 1;
                 @media #{$lg,$md,$sm,$xs} {
@@ -666,15 +667,15 @@
             }
         }
         &-wrapper{
-            padding-top: 345px;
+            padding-top: 200px;
             position: relative;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            min-height: 1060px;
+            min-height: 400px;
             @media #{$xl} {
                 padding-top: 300px;
-                min-height: 970px;
+                min-height: 600px;
             }
             @media #{$lg} {
                 padding-top: 230px;
@@ -705,7 +706,7 @@
         &-title{
             position: relative;
             font-weight: 700;
-            font-size: 80px;
+            font-size: 50px;
             line-height: 1.2;
             margin-bottom: 30px;
             text-transform: capitalize;
@@ -713,16 +714,16 @@
             animation-delay: .8s;
             animation-duration: 1s;
             @media #{$lg} {
-                font-size: 70px;
+                font-size: 45px;
             }
             @media #{$md} {
-                font-size: 65px;
+                font-size: 45px;
             }
             @media #{$sm} {
-                font-size: 60px;
+                font-size: 40px;
             }
             @media #{$xs} {
-                font-size: 39px;
+                font-size: 29px;
             }
             & .title-color{
                 color: var(--tp-theme-secondary);
@@ -775,7 +776,7 @@
         }
         &-btn{
             & .tp-btn-2{
-                padding: 24px 72px;
+                padding: 14px 52px;
                 animation-delay: 1s;
                 animation-duration: 1.2s;
                 &:hover{

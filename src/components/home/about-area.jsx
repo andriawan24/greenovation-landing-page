@@ -42,7 +42,7 @@ const AboutArea = ({about}) => {
                         {about ?  
                         <div className="col-lg-6">
                             <div className="tp-about-breadcrumb-img p-relative text-center fadeLeft">
-                                {/* <Image src={about_img} alt="theme-pure" /> */}
+                                <Image src={about_img} alt="theme-pure" />
                             </div> 
                         </div>  
                         :  
@@ -51,13 +51,13 @@ const AboutArea = ({about}) => {
                                 <Image src={about_img_2} alt="theme-pure" />
                                 <Image className="shape-1" src={about_img_3} alt="theme-pure" />
                                 <div className="shape-2 p-relative">
-                                <Image src={about_img_4} alt="theme-pure" />
-                                <div className="tp-video-play">
-                                    <a className="popup-video" 
-                                    onClick={() => setIsVideoOpen(true)}>
-                                        <i className="fa-sharp fa-solid fa-play"></i>
-                                    </a>
-                                </div>
+                                    <Image src={about_img_4} alt="theme-pure" />
+                                    <div className="tp-video-play">
+                                        <a className="popup-video" 
+                                        onClick={() => setIsVideoOpen(true)}>
+                                            <i className="fa-sharp fa-solid fa-play"></i>
+                                        </a>
+                                    </div>
                                 </div>
                                 {/* <Image className="shape-3" src={about_shape_1} alt="theme-pure" /> */}
                                 {/* <Image className="shape-4" src={about_shape_2} alt="theme-pure" /> */}
@@ -78,7 +78,7 @@ const AboutArea = ({about}) => {
                                     </h3> 
                                 </div>
                                 <p className="text">
-                                    Transmax is the world’s driving worldwide coordinations supplier — we <br /> uphold industry and exchange the worldwide trade of merchandise <br /> through land transport.
+                                    Transmax is the world`s driving worldwide coordinations supplier — we <br /> uphold industry and exchange the worldwide trade of merchandise <br /> through land transport.
                                 </p>
                                 <div className="tp-about-progressbar-inner d-flex flex-wrap pt-20">
                                 <div className="tp-about-3-progressbar d-flex align-items-center">

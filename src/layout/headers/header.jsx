@@ -2,7 +2,7 @@ import useSticky from '@/src/hooks/use-sticky';
 import Link from 'next/link';
 import React, {useEffect, useRef, useState} from 'react';
 import NavMenu from './nav-menu';
-import Logo from "@assets/img/logo/logo_landscape.png";
+import Logo from "@assets/img/logo/logo_landscape_white.png";
 import Image from 'next/image';
 // import SearchPopup from '@/src/modals/search-popup';
 import Sidebar from '@/src/modals/sidebar';

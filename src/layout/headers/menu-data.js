@@ -18,27 +18,27 @@ const menu_data = [
     link: "/about",
     active: "",
   },   
-  {
-    id: 3,
-    mega_menu: false,
-    has_dropdown: false,
-    title: "Pricing",
-    link: "/service",
-    active: ""
-  },
-  {
-    id: 4,
-    mega_menu: false,
-    has_dropdown: false,
-    title: "Terms & Condition",
-    link: "/terms",
-    active: ""
-  },
+  // {
+  //   id: 3,
+  //   mega_menu: false,
+  //   has_dropdown: false,
+  //   title: "Pricing",
+  //   link: "/service",
+  //   active: ""
+  // },
+  // {
+  //   id: 4,
+  //   mega_menu: false,
+  //   has_dropdown: false,
+  //   title: "Terms & Condition",
+  //   link: "/terms",
+  //   active: ""
+  // },
   {
     id: 5,
     mega_menu: false,
     has_dropdown: false,
-    title: "Privacy Policies",
+    title: "Privacy Policy",
     link: "/privacy-policy",
     active: "",
   },

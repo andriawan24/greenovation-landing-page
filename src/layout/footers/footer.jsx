@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-import footer_logo from "@assets/img/logo/logo_landscape.png";
+import footer_logo from "@assets/img/logo/logo_landscape_white.png";
 import SocialLinks, { CopyRight } from '@/src/common/social-links';
 import EmailAeroplan from '@/src/svg/email-aeroplan';
 

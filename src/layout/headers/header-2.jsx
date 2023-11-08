@@ -121,7 +121,7 @@ const HeaderTwo = () => {
                            </div>
                         </div>
                         </div>
-                        <div className="col-xxl-8 col-xl-12 d-none d-xl-block">
+                        <div className="col-xxl-6 col-xl-12 d-none d-xl-block">
                            <div className="tp-main-menu-2-area d-flex align-items-center">
                               <div className="tp-main-menu">
                                  <nav id="tp-mobile-menu">
@@ -149,7 +149,7 @@ const HeaderTwo = () => {
                                  </div>
                               </div>
                            </div> */}
-                           <div className="tp-header-2-mobile-menu d-flex justify-content-end d-block d-xxl-none">
+                           <div className="tp-header-2-mobile-menu d-flex justify-content-end d-block">
                               <div className="tp-header-2-hamburger-btn offcanvas-open-btn"  
                               onClick={() => setSidebarOpen(true)}
                                  style={{backgroundImage: `url(/assets/img/icon/header-hamburger-shape.png)`}}>
@@ -170,8 +170,6 @@ const HeaderTwo = () => {
          </header>
          {/* <SearchPopup searchOpen={searchOpen} setSearchOpen={setSearchOpen} /> */}
          <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} /> 
-
-
       </>
    );
 };
