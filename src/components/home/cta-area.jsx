@@ -7,8 +7,8 @@ import cta_call from "@assets/img/icon/call.svg";
 
 const cta_content = {
     bg_img: "/assets/img/services/home-3/service-bg.png",
-    title: <>We’re Ready to Growth <br /> IT Business</>,
-    phone: "+88 1900 6789 56",
+    title: <>Make your farm greener with Greenovation</>,
+    phone: "+62 882 2438 1926",
 }
 const {bg_img, title, phone} = cta_content
 
@@ -40,11 +40,8 @@ const CtaArea = () => {
                                         <Image src={cta_call} alt="theme-pure" />
                                         </div>
                                         <div className="tp-cta-3-phone-content">
-                                        <span>Phone: <br /> <a href={`tel:${phone}`}>{phone}</a></span>
+                                        <span>Phone: <br /> <a href={`tel:6285171231336`}>{phone}</a></span>
                                         </div>
-                                    </div>
-                                    <div className="tp-cta-3-btn">
-                                        <Link className="tp-btn-3" href="/about">About Our Agency</Link>
                                     </div>
                                 </div>
                             </div>

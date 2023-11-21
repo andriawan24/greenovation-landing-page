@@ -56,8 +56,8 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                             <MobileMenus />
                         </div>
                         <div className="offcanvas__popup">
-                            <p>Web designing in a powerful way of just not an only professions. We have tendency to believe the idea that smart looking .</p>
-                            <div className="offcanvas__popup-gallery">
+                            <p>Helps to make your hydroponic farm greener right just from your pocket.</p>
+                            {/* <div className="offcanvas__popup-gallery">
                                 <h4 className="offcanvas__title">Gallery</h4>
                                 {images.map((item, i) => 
                                     <a key={i} style={{ cursor: "pointer" }} 
@@ -66,7 +66,7 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                                         <Image src={item.img} alt="theme-pure" />
                                     </a>
                                 )}
-                            </div>
+                            </div> */}
                         </div>
                         <div className="offcanvas__contact">
                             <h4 className="offcanvas__title">Contacts</h4>
@@ -75,7 +75,7 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                                     <i className="fa-sharp fa-solid fa-location-dot"></i>
                                 </div>
                                 <div className="offcanvas__contact-content-content">
-                                    <a href="https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1">86 Road Broklyn Street, 600 </a>
+                                    <a href="https://maps.app.goo.gl/TJKh4svHoqMWzouH9">Apple Developer Academy @BINUS Jl. Grand Boulevard, BSD Green Office Park 9, BSD City, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345</a>
                                 </div>
                             </div>
                             <div className="offcanvas__contact-content d-flex">
@@ -83,7 +83,7 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                                     <i className="fa-solid fa-envelope"></i>
                                 </div>
                                 <div className="offcanvas__contact-content-content">
-                                    <a href="mailto:needhelp@company.com">Needhelp@company.com  </a>
+                                    <a href="mailto:greenovationeco@gmail.com">greenovationeco@gmail.com  </a>
                                 </div>
                             </div>
                             <div className="offcanvas__contact-content d-flex">
@@ -91,7 +91,7 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                                     <i className="fa-solid fa-phone"></i>
                                 </div>
                                 <div className="offcanvas__contact-content-content">
-                                    <a href="tel:01310-069824"> +92 666 888 0000</a>
+                                    <a href="tel:6285171231336"> +62 851 7123 1336</a>
                                 </div>
                             </div>
                         </div>

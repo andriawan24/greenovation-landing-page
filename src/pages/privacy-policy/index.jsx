@@ -1,18 +1,57 @@
+import Breadcrumb from "@/src/common/breadcrumb/breadcrumb"
 import SEO from "@/src/common/seo"
 import Footer from "@/src/layout/footers/footer"
 import HeaderTwo from "@/src/layout/headers/header-2"
 import Wrapper from "@/src/layout/wrapper"
+import { useState } from "react"
 
 const index = () => {
+
+  const [language, setLanguage] = useState('id')
+
   return (
     <>
       <Wrapper>
         <SEO pageTitle={'Privacy Policy'} />
         <HeaderTwo />
         <main>
-          <section className="pt-80 pb-80 pl-80 pr-80">
+          <Breadcrumb top_title="Privacy Policy" page_title="Privacy Policy" />
+          <section className="pt-40 text-center">
+            <button onClick={() => setLanguage('id')} className={language == "id" ? 'tp-btn-2 mr-20' : ''}>Indonesia</button>
+            <button onClick={() => setLanguage('en')} className={language == "en" ? 'tp-btn-2 ml-20' : ''}>English</button>
+          </section>
+          {language == "id" ? (
+            <section className="pt-80 pb-80 pl-40 pr-40">
+              <h1>Kebijakan Privasi untuk Greenovation</h1>
+              <p>Di Greenovation, dapat diakses dari Greenovation, salah satu prioritas utama kami adalah privasi pengunjung kami. Dokumen Kebijakan Privasi ini berisi jenis informasi yang dikumpulkan dan dicatat oleh Greenovation dan bagaimana kami menggunakannya.</p>
+              <p>Jika Anda memiliki pertanyaan tambahan atau memerlukan informasi lebih lanjut tentang Kebijakan Privasi kami, jangan ragu untuk menghubungi kami.</p>
+              
+              <h2>File Log</h2>
+              <p>Greenovation mengikuti prosedur standar menggunakan file log. File-file ini mencatat pengunjung ketika mereka mengunjungi situs web. Semua perusahaan hosting melakukan ini dan merupakan bagian dari analisis layanan hosting. Informasi yang dikumpulkan oleh file log termasuk alamat protokol internet (IP), jenis browser, Penyedia Layanan Internet (ISP), cap tanggal dan waktu, halaman rujukan/keluar, dan mungkin jumlah klik. Ini tidak terkait dengan informasi apa pun yang dapat diidentifikasi secara pribadi. Tujuan dari informasi tersebut adalah untuk menganalisis tren, mengelola situs, melacak pergerakan pengguna di situs web, dan mengumpulkan informasi demografis. Kebijakan Privasi kami dibuat dengan bantuan <a href="https://www.privacypolicyonline.com/privacy-policy-generator/">Pembuat Kebijakan Privasi</a>.</p>
+
+              <h2>Kebijakan Privasi</h2>
+              <p>Anda dapat berkonsultasi dengan daftar ini untuk menemukan Kebijakan Privasi untuk masing-masing mitra periklanan Greenovation.</p>
+              <p>Server iklan atau jaringan iklan pihak ketiga menggunakan teknologi seperti cookie, JavaScript, atau Web Beacon yang digunakan dalam iklan masing-masing dan tautan yang muncul di Greenovation, yang dikirim langsung ke browser pengguna. Mereka secara otomatis menerima alamat IP Anda ketika ini terjadi. Teknologi ini digunakan untuk mengukur efektivitas kampanye iklan mereka dan/atau untuk mempersonalisasi konten iklan yang Anda lihat di situs web yang Anda kunjungi.</p>
+              <p>Perhatikan bahwa Greenovation tidak memiliki akses atau kontrol terhadap cookie yang digunakan oleh pengiklan pihak ketiga.</p>
+
+              <h2>Kebijakan Privasi Pihak Ketiga</h2>
+              <p>Kebijakan Privasi Greenovation tidak berlaku untuk pengiklan atau situs web lain. Oleh karena itu, kami menyarankan Anda untuk berkonsultasi dengan Kebijakan Privasi masing-masing server iklan pihak ketiga ini untuk informasi lebih rinci. Ini mungkin mencakup praktik dan instruksi mereka tentang cara memilih untuk tidak ikut serta dalam opsi tertentu.</p>
+              <p>Anda dapat memilih untuk menonaktifkan cookie melalui opsi browser individual Anda. Untuk mengetahui informasi lebih detail mengenai pengelolaan cookie dengan browser web tertentu, dapat ditemukan di situs web browser masing-masing. Apa itu Cookies?</p>
+
+              <h2>Informasi Anak</h2>
+              <p>Bagian lain dari prioritas kami adalah menambahkan perlindungan bagi anak-anak saat menggunakan internet. Kami mendorong orang tua dan wali untuk mengamati, berpartisipasi, dan/atau memantau dan membimbing aktivitas online mereka.</p>
+              <p>Greenovation tidak dengan sengaja mengumpulkan Informasi Identifikasi Pribadi apa pun dari anak-anak di bawah usia 13 tahun. Jika menurut Anda anak Anda memberikan informasi semacam ini di situs web kami, kami sangat menganjurkan Anda untuk segera menghubungi kami dan kami akan melakukan upaya terbaik kami untuk segera menghapusnya. informasi tersebut dari catatan kami.</p>
+
+              <h2>Hanya Kebijakan Privasi Online</h2>
+              <p>Kebijakan Privasi ini hanya berlaku untuk aktivitas online kami dan berlaku bagi pengunjung situs web kami sehubungan dengan informasi yang mereka bagikan dan/atau kumpulkan di Greenovation. Kebijakan ini tidak berlaku untuk informasi apa pun yang dikumpulkan secara offline atau melalui saluran selain situs web ini.</p>
+
+              <h2>Kepatuhan</h2>
+              <p>Dengan menggunakan situs web kami, Anda dengan ini menyetujui Kebijakan Privasi kami dan menyetujui Syarat dan Ketentuannya.</p>
+            </section>
+          ) : (
+            <section className="pt-80 pb-80 pl-40 pr-40">
             <h1>Privacy Policy for Greenovation</h1>
-            <p>At Greenovation, accessible from WEBSITE NAME, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Greenovation and how we use it.</p>
+            <p>At Greenovation, accessible from Greenovation, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Greenovation and how we use it.</p>
             <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
             
             <h2>Log Files</h2>
@@ -37,6 +76,7 @@ const index = () => {
             <h2>Consent</h2>
             <p>By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.</p>
           </section>
+          )}
         </main>
         <Footer />
       </Wrapper>

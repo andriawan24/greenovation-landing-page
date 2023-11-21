@@ -21,12 +21,11 @@ const Home = () => {
             <HeaderTwo />
                 <main>
                     <HeroArea />
-                    {/* <CounterArea /> */}
                     <AboutArea />
-                    <CategoryArea />
+                    {/* <CategoryArea /> */}
                     <ServiceArea />
                     <CtaArea />
-                    <FeatureArea />
+                    {/* <FeatureArea /> */}
                     <FooterContact />
                 </main>
             <Footer />

@@ -262,17 +262,17 @@
         }
         & a{
             font-weight: 600;
-            font-size: 22px;
+            font-size: 18px;
             line-height: 26px;
             color: var(--tp-common-white);
             border: 1px solid rgba(255, 255, 255, 0.4);
             border-radius: 66.5px;
             padding: 12px;
             @media #{$sm} {
-                font-size: 20px;
+                font-size: 16px;
             }
             @media #{$xs} {
-                font-size: 16px;
+                font-size: 12px;
             }
             & span{
                 text-decoration: underline;

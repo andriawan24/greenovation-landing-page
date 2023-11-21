@@ -8,16 +8,17 @@ import EmailAeroplan from '@/src/svg/email-aeroplan';
 
 const footer_contact = {
     bg_img: "assets/img/footer/footer-bg.jpg",
-    footer_info: <>The world`s first and largest digital marketplace <br />for crypto collectibles and non-fungible tokens (NFTs). Buy</>,
-    map_link: "https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1",
-    address: <>86 Road Broklyn Street, 600 <br /> New York, USA</>,
-    mail: "info@greenovation.com",
+    footer_info: <>Helps to make your hydroponic farm greener right just from your pocket.</>,
+    map_link: "https://maps.app.goo.gl/TJKh4svHoqMWzouH9",
+    address: <>Apple Developer Academy @BINUS Jl. Grand Boulevard, BSD Green Office Park 9, BSD City, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345
+    </>,
+    mail: "greenovationeco@gmail.com",
     phone: "+62 851 7123 1336",
     service_links: [
-        { title: "Home", link: "#" },
-        { title: "About Us", link: "#" },
-        { title: "Pricing", link: "#" },
-        { title: "Contact Us", link: "#" },
+        { title: "Home", link: "/" },
+        { title: "About Us", link: "/about" },
+        { title: "Privacy Policy", link: "/privacy-policy" },
+        { title: "Contact Us", link: "/contact-us" },
     ]
 }
 const {bg_img, footer_info, map_link, address, mail, phone, service_links} = footer_contact
@@ -64,7 +65,7 @@ const Footer = () => {
                                     </div>
                                 </div> 
                             </div>
-                            <div className="col-lg-4 col-md-6">
+                            {/* <div className="col-lg-4 col-md-6">
                                 <div className="tp-footer-widget tp-footer-3-col-3">
                                     <h3 className="tp-footer-widget-title">Newsletter</h3>
                                     <div className="tp-footer-from">
@@ -85,7 +86,7 @@ const Footer = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="tp-footer-copyright-area p-relative">

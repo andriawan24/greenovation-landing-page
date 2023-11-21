@@ -3,16 +3,10 @@ import Link from "next/link";
 import React,{useState} from 'react';
 import AngleArrow from '@/src/svg/angle-arrow';
 import VideoPopup from '@/src/modals/video-popup';
-// about img import here
 import about_img_1 from "@assets/img/about/home-3/shape-4.png";
 import about_img_2 from "@assets/img/about/home-3/img-1.jpg";
 import about_img_3 from "@assets/img/about/home-3/img-2.jpg";
 import about_img_4 from "@assets/img/about/home-3/img-3.jpg";
-// about shape import here
-import about_shape_1 from "@assets/img/about/home-3/shape-1.png";
-import about_shape_2 from "@assets/img/about/home-3/shape-2.png";
-import about_shape_3 from "@assets/img/about/home-3/shape-3.png"; 
-// import progressbar   
 import { CircularProgressbar} from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
@@ -23,7 +17,7 @@ import about_img_10 from "@assets/img/business/shape-5.png";
 const AboutArea = ({about}) => {
     const percentage = 50;
     const percentage2 = 75;
-  const [isVideoOpen, setIsVideoOpen] = useState(false);
+    const [isVideoOpen, setIsVideoOpen] = useState(false);
 
     return (
         <>
@@ -70,58 +64,22 @@ const AboutArea = ({about}) => {
                             <div className="tp-about-3-wrapper">
                                 <div className="tp-about-3-title-wrapper"> 
                                     <span className="tp-section-title__pre">
-                                        about <span className="title-pre-color">IT Solutions</span>
+                                        about <span className="title-pre-color">Greenovation</span>
                                         <AngleArrow /> 
                                     </span>
                                     <h3 className="tp-section-title">
-                                        Best Digital <span className="title-color">Technology</span> <br /> Agency For People
+                                        Your <span className="title-color">Solution</span> Away From Your Farm
                                     </h3> 
                                 </div>
                                 <p className="text">
-                                    Transmax is the world`s driving worldwide coordinations supplier — we <br /> uphold industry and exchange the worldwide trade of merchandise <br /> through land transport.
+                                    Greenovation helps hydroponic farm by providing real-time insights <br/>and hands-free automation for ensuring plants <br />received optimal care
                                 </p>
-                                <div className="tp-about-progressbar-inner d-flex flex-wrap pt-20">
-                                <div className="tp-about-3-progressbar d-flex align-items-center">
-                                    <div className="circular tl-progress"> 
-                                        <CircularProgressbar
-                                        value={percentage}
-                                        text={`${percentage}%`}
-                                        strokeWidth={5}   
-                                        className="knob"
-                                        />
+                                <div className="tp-about-3-btn-inner d-flex flex-wrap pt-40">
+                                    <div className="tp-about-btn ">
+                                        <Link className="tp-btn" href="/about">Our Story 
+                                            <i className="fa-regular fa-arrow-right-long"></i>
+                                        </Link>
                                     </div>
-                                    <div className="tp-about-3-progressbar-title">
-                                        <p>Business <br /> Strategy Growth</p>
-                                    </div>
-                                </div>
-                                <div className="tp-about-3-progressbar d-flex align-items-center">
-                                    <div className="circular tl-progress"> 
-                                        <CircularProgressbar
-                                        value={percentage2}
-                                        text={`${percentage2}%`}
-                                        strokeWidth={5} 
-                                        />
-                                    </div>
-                                    <div className="tp-about-3-progressbar-title">
-                                        <p>Health Valuable <br /> Ideas</p>
-                                    </div>
-                                </div>
-                                </div>
-                                <div className="tp-about-3-btn-inner d-flex flex-wrap">
-                                <div className="tp-about-btn ">
-                                    <Link className="tp-btn" href="/about">Our History 
-                                        <i className="fa-regular fa-arrow-right-long"></i>
-                                    </Link>
-                                </div>
-                                <div className="tp-about-3-year">
-                                    <p>
-                                        BRENDON GARREY
-                                        <br />
-                                        <span>
-                                            mayor, since 21st Oct , 2019
-                                        </span>
-                                    </p>
-                                </div>
                                 </div>
                             </div>
                         </div>

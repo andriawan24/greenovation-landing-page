@@ -71,11 +71,11 @@ const Header = () => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <a href="mailto:info@greenovation.com">
+                                            <a href="mailto:greenovationeco@gmail.com">
                                                 <span>
                                                     <i className="fa-solid fa-envelope"></i>
                                                 </span>
-                                                info@greenovation.com
+                                                greenovationeco@gmail.com
                                             </a>
                                         </li>
                                     </ul> */}
@@ -91,11 +91,11 @@ const Header = () => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <a href="mailto:info@greenovation.com">
+                                            <a href="mailto:greenovationeco@gmail.com">
                                                 <span>
                                                     <i className="fa-solid fa-envelope"></i>
                                                 </span>
-                                                info@greenovation.com
+                                                greenovationeco@gmail.com
                                             </a>
                                         </li>
                                     </ul>
