@@ -22,11 +22,11 @@ const About = () => {
             <Breadcrumb top_title="About Us"  page_title="About Us" />
             <AboutArea about={true} /> 
             {/* <CounterArea about={true} /> */}
-            <FeatureArea about={true} />
-            <SupportArea />
-            <VideoArea />
-            <TestimonialFeature />
-            <TestimonialArea />
+            {/* <FeatureArea about={true} /> */}
+            {/* <SupportArea /> */}
+            {/* <VideoArea /> */}
+            {/* <TestimonialFeature /> */}
+            {/* <TestimonialArea /> */}
             {/* <BrandArea /> */}
             <TeamArea />
             {/* <BlogArea /> */}

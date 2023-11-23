@@ -57,16 +57,6 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                         </div>
                         <div className="offcanvas__popup">
                             <p>Helps to make your hydroponic farm greener right just from your pocket.</p>
-                            {/* <div className="offcanvas__popup-gallery">
-                                <h4 className="offcanvas__title">Gallery</h4>
-                                {images.map((item, i) => 
-                                    <a key={i} style={{ cursor: "pointer" }} 
-                                    onClick={() => handleImagePopup(i)} 
-                                    className="popup-image">
-                                        <Image src={item.img} alt="theme-pure" />
-                                    </a>
-                                )}
-                            </div> */}
                         </div>
                         <div className="offcanvas__contact">
                             <h4 className="offcanvas__title">Contacts</h4>

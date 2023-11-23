@@ -6,7 +6,6 @@ import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react'; 
 
 import PlusIcon from '@/src/svg/plus-icon';
-import AngleArrow from '@/src/svg/angle-arrow';
 import team_shape_1  from "@assets/img/testimonial/home-3/shape-3.png";
 import { SocialLinksTwo } from '@/src/common/social-links';
 
@@ -56,14 +55,14 @@ const TeamArea = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="tp-team-title-wrapper">
-                                <span className="tp-section-title__pre">
+                                {/* <span className="tp-section-title__pre">
                                 best <span className="title-pre-color">IT Solutions</span>
                                 <AngleArrow /> 
-                                </span>
-                                <h3 className="tp-section-title">Best Digital 
+                                </span> */}
+                                <h3 className="tp-section-title">Behind The&nbsp;
                                 <span className="title-color">
-                                    Technology
-                                </span> <br /> Agency For People
+                                    Greenovation
+                                </span>
                                 </h3>
                             </div>
                         </div>
@@ -92,23 +91,23 @@ const TeamArea = () => {
                                 <SwiperSlide key={i}>
                                     <div className="tp-team-wrapper p-relative">
                                         <div className="tp-team-wrapper-thumb">
-                                            <Link href="/team-details">
+                                            <Link href={`https://instagram.com/${item.username}`} target='_blank'>
                                                 <Image src={item.img} alt="theme-pure" />
                                             </Link>
-                                            <div className="tp-team-social-info"> 
+                                            {/* <div className="tp-team-social-info"> 
                                                 <SocialLinksTwo /> 
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="tp-team-wrapper-content d-flex align-items-center justify-content-between">
                                             <div className="tp-team-wrapper-content-text">
                                                 <h3 className="team-title"><Link href="/team-details">{item.name}</Link></h3>
                                                 <p>{item.job_title}</p>
                                             </div>
-                                            <div className="tp-team-wrapper-icon">
+                                            {/* <div className="tp-team-wrapper-icon">
                                                 <span className="tp-team-social">
                                                     <PlusIcon /> 
                                                 </span>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </SwiperSlide>
